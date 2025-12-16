@@ -1,0 +1,36 @@
+  index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="converter-container">
+    <h2>🔄 Km ↔ Mi Converter</h2>
+
+    <div class="input-group">
+        <label>Enter Value:</label>
+        <input type="number" id="inputValue" placeholder="0.00" step="any">
+    </div>
+
+    <div class="input-group">
+        <label>Convert:</label>
+        <select id="conversionDirection">
+            <option value="kmToMi">Kilometers → Miles</option>
+            <option value="miToKm">Miles → Kilometers</option>
+        </select>
+    </div>
+
+    <button id="convertButton">Convert</button>
+
+    <div id="outputResult"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+EOF
